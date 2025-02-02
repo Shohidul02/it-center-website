@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servitium IT</title>
+  <!-- daisyUI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+  <!-- icon  fontawesome-->
+  <script src="https://kit.fontawesome.com/2b3478d861.js" crossorigin="anonymous"></script>
+  <!-- Style -->
+  <style>
+    .open-sans {
+      font-family: "Open Sans", serif;
+    }
+
+    .bebas {
+      font-family: "Bebas Neue", serif;
+    }
+
+    /* typing animation  */
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+
+      to {
+        width: 40%;
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+
+    .typewriter {
+      overflow: hidden;
+      display: inline-block;
+      border-right: 2px solid black;
+      animation: typing 4s steps(40, end) infinite alternate, blink 0.7s step-end infinite;
+      white-space: pre-wrap;
+      /* Allow text to wrap */
+    }
+  </style>
+  <!-- script for custom color-->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: "#da373d",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<!-- ............................................................. -->
+
+<body>
+  <header>
+    <!-- nav -->
+    <nav>
+      <div class="navbar bg-[#1d2d44]">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost text-white lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li>
+                <a href=""> All Course</a>
+              </li>
+              <li><a>About Us</a></li>
+              <li><a>Contact US</a></li>
+            </ul>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl text-white">Servitium IT Center</a>
+        </div>
+        <div class="navbar-center hidden lg:flex text-white">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li>
+              <a href=""> All Course</a>
+            </li>
+            <li><a>About Us</a></li>
+            <li><a>Contact US</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Login</a>
+        </div>
+      </div>
+    </nav>
+    <!-- nav  end -->
+    <!-- banner -->
+    <section>
+      <div class="h-svh flex items-center justify-center" style="background-image: url(./img/cool-background.png)">
+        <div class="flex flex-col items-center justify-center text-center">
+          <h1 class="mb-5 text-5xl font-bold text-white">
+            <span class="typewriter">Hello....</span> <br>let's Start your Journey.
+          </h1>
+          <p class="mb-5 text-white">
+            "Freelance Your Future with Servitium!"<br>
+            "Learn. Earn. Grow." <br>
+            "Master Skills, Start Earning!" <br>
+            "Be Your Own Boss Today!" <br>
+            "Freelancing Made Easy with Servitium!"
+          </p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+      <div class="absolute lg:bottom-[500px] lg:left-40 left-10 bottom-1 animate-bounce">
+        <img src="img/WordPress_logo.png" alt="" class="h-7" />
+      </div>
+      <div class="absolute lg:bottom-[400px] lg:left-40 left-10 bottom-6 animate-bounce">
+        <img src="img/email_marketing.png" alt="" class="h-14" />
+      </div>
+      <div class="absolute lg:bottom-60 lg:right-40 right-3 bottom-12 animate-bounce">
+        <img src="img/hacking.png" alt="" class="h-14" />
+      </div>
+      <div class="absolute lg:bottom-32 lg:right-40 right-3 bottom-0 animate-bounce">
+        <img src="img/graphics.png" alt="" class="h-14" />
+      </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>

@@ -50,7 +50,12 @@
       animation: typing 4s steps(40, end) infinite alternate, blink 0.7s step-end infinite;
       white-space: pre-wrap;
       /* Allow text to wrap */
-    }
+      
+     }
+     /* bg */
+    .bg-image{
+      background-image: url(./img/bgimage.jpg);
+     }
   </style>
   <!-- script for custom color-->
   <script>
@@ -126,23 +131,23 @@
         </div>
       </div>
       <div class="absolute lg:bottom-[500px] lg:left-40 left-10 bottom-1 animate-bounce">
-        <img src="img/WordPress_logo.png" alt="" class="h-7" />
+        <img src="img/WordPress_logo.png" alt="" class="h-10" />
       </div>
       <div class="absolute lg:bottom-[400px] lg:left-40 left-10 bottom-6 animate-bounce">
-        <img src="img/email_marketing.png" alt="" class="h-14" />
+        <img src="img/email_marketing.png" alt="" class="h-20" />
       </div>
-      <div class="absolute lg:bottom-60 lg:right-40 right-3 bottom-12 animate-bounce">
-        <img src="img/hacking.png" alt="" class="h-14" />
+      <div class="absolute lg:bottom-60 lg:right-40 right-3 bottom-16 animate-bounce">
+        <img src="img/hacking.png" alt="" class="h-20" />
       </div>
       <div class="absolute lg:bottom-32 lg:right-40 right-3 bottom-0 animate-bounce">
-        <img src="img/graphics.png" alt="" class="h-14" />
+        <img src="img/graphics.png" alt="" class="h-20" />
       </div>
       </div>
     </section>
   </header>
   <main>
     <!-- your carrier -->
-    <section class="bg-gradient-to-br from-slate-200 to-red-100">
+    <section class="bg-gradient-to-br from-slate-200 to-red-100 py-20">
       <div class=" flex flex-col lg:flex-row justify-center items-center text-center lg:text-left pt-10">
         <div> <img src="img/working.png" alt=""></div>
       <div class="w-1/2">
@@ -152,13 +157,43 @@
         <button class="btn bg-slate-800 text-white mt-10">
           All Courses
         </button>
-      </div>
-      </div>
+      
     </section>
     <!-- about section -->
-     <section>
-      <h1 font >About Servitium IT</h1>
-     </section>
+    <section class="flex flex-col justify-center items-center text-center">
+      <h1 class="text-center mt-10 font-bold text-5xl text-blue-900 animate-bounce">About Servitium IT Center</h1>
+
+      <div class="flex flex-col lg:flex-row justify-center items-center text-center lg:text-left p-10 pt-10 gap-10">
+        <!-- ...........card section......... -->
+        <div class="flex flex-col items-center w-full lg:w-1/2">
+        <!-- card 1 -->
+          <div class="border-2 drop-shadow-lg rounded-xl p-5 hover:p-10  hover:bg-slate-200">
+            <h2 class="font-bold text-2xl hover:text-blue-900"> <i class="fa-solid fa-headset"></i> INSTANT 24/7 LIVE SUPPORT LIFETIME</h2>
+            
+            <p class="mt-5">Our IT Support Center is available 24/7 to provide you with reliable, fast, and efficient technical assistance whenever you need it. Whether you're facing system issues, network disruptions, software glitches, or require troubleshooting support, our team of experienced IT professionals is always ready to help.</p>
+          </div>
+          <!-- card 2 -->
+          <div class="border-2 drop-shadow-lg mt-10 rounded-xl p-5 hover:p-10 hover:bg-slate-200">
+            <h2 class="font-bold text-2xl"> <i class="fa-brands fa-slack"></i> FIVERR & UPWORK CRASH</h2>
+            <p class="mt-5">Fiverr Upwork, Kwork & Freelancer & Other marketplace crash programs of 90 days make them confident about marketplace! Also we guide students to hunt clients from outside of the marketplace.</p>
+          </div>
+          <!-- card 3 -->
+          <div class="border-2 drop-shadow-lg mt-10 rounded-xl p-5 hover:p-10 hover:bg-slate-200">
+            <h2 class="font-bold text-2xl"> <i class="fa-solid fa-file-signature"></i> Prepare for a Job</h2>
+            <p class="mt-5">We Will Prepare You to Become a Strong Candidate for a Great Job. Our mission is to help you become the ideal candidate for the job you desire. We provide comprehensive support to enhance your skills, boost your confidence, and ensure you’re fully prepared to stand out in today’s competitive job market.</p>
+          </div>
+          <!--  -->
+        </div>
+    <!-- .......image section........... -->
+        <div class="w-full lg:w-1/2 flex justify-center animate-pulse">
+          <img src="img/working.png" alt="Working Image" class="max-w-full h-auto lg:max-w-md">
+        </div>
+    
+      </div>
+    </section>
+    
+
+    
   </main>
   <footer>
 
